@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Update User</title>
+</head>
+<body>
+<h2>[[${user.name}]]</h2>
+
+<form th:action="@{/logout}" method="POST">
+    <input type="submit" value="Logout"/>
+</form>
+<div>
+        <h1>Login -- [[${user.name}]]</h1>
+        <h1>Password -- [[${user.password}]]</h1>
+
+</div>
+
+</body>
+</html>

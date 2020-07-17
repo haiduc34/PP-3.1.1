@@ -34,7 +34,6 @@ import java.util.Objects;
 import java.util.Properties;
 
 @Configuration
-@EnableWebMvc
 @ComponentScan(basePackages = "web")
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement
